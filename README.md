@@ -1,10 +1,20 @@
 # Sign-Language-Recognition-Model
+
 The aim of this project is to recognize what the person is trying to convey using different hand gestures. The dataset contains 29 classes which comprises of A to Z alphabets, nothing, space and delete hand gestures.
+
+![Image](https://github.com/user-attachments/assets/374f0b08-f4ed-4464-95f3-0f801ee6265b)
+
+
 
 
  I HAVE USED TWO APPROACHES IN THE ABOVE PROJECT TO ANALYSE THE RESULTS AND COMPARE THEM
 
+ 
+
  (1)Multi Layer Perceptron(MLP) approach
+
+
+
 
 Loading datasets
 Defining a function to display sample images from the dataset when their corresponding labels are given as input
@@ -12,6 +22,11 @@ Performing Data Augmentation using ImageDataGenerator to import training images 
 Building the Multi Layer Perceptron model
 Defining a function to determine the learning_rate decay based on epoch schedule.
 Plotting the accuracy and loss curves.
+
+![Image](https://github.com/user-attachments/assets/e2b90f6f-1640-4c4f-9ff3-9fab904b2252)
+
+
+
 
 (2)Convolutional Neural Network(CNN) approach
 
@@ -32,22 +47,48 @@ Comparing the Actual label vs the Predicted label of the Sign Language image
 Confusion Matrix
 Classification report of the CNN model
 
+
+![Image](https://github.com/user-attachments/assets/7dc5986c-5b23-4e4a-8c1e-38626effe504)
+
+
+
+
+
 LIBRARIES USED
 
 Tensorflow
+
 cv2
+
 glob
+
 matplotlib
+
 random
+
 math
+
 os
+
 numpy
+
 PIL
+
 scikit learn
+
 keras
+
 skimage
 
-Model Comparison and Conclusion
+
+
+
+
+
+
+
+
+MODEL COMPARISON
 
 
 The MLP model achieved 91.99% training accuracy but suffered from overfitting, with validation accuracy dropping to 68.28%. MLPs are not ideal for image data as they ignore spatial relationships between pixels.
@@ -56,7 +97,20 @@ In contrast, the CNN model achieved 99.43% training accuracy and 99.78% validati
 
 Thus, CNN proved to be the optimal approach for this task.
 
-Conclusion
+
+
+
+
+
+
+
+
+
+CONCLUSION
+
+
+
+
 
 In this project we have used a couple of Deep Learning frameworks to recognize the Sign Language. The MLP model performs fairly but gets overfitted. However, CNN approach is used to train the dataset which perfroms well and gives a validation accuracy of 99.78% .
 
