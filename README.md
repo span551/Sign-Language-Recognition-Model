@@ -1,6 +1,6 @@
 # Sign-Language-Recognition-Model
 The aim of this project is to recognize what the person is trying to convey using different hand gestures. The dataset contains 29 classes which comprises of A to Z alphabets, nothing, space and delete hand gestures.
-<img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.istockphoto.com%2Fphotos%2Fsign-language-alphabet&psig=AOvVaw0kubGMzTrAsioWiasHdAuh&ust=1739304453891000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCJil4ZT0uYsDFQAAAAAdAAAAABAE.png" width="200">
+
 
  I HAVE USED TWO APPROACHES IN THE ABOVE PROJECT TO ANALYSE THE RESULTS AND COMPARE THEM
 
